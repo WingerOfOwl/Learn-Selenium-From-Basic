@@ -1,9 +1,9 @@
-import javax.sound.midi.Soundbank;
 
 public class belajar1 {
    static String oshi2 = "Greesel";
    static int angka1 = 10000;
    static int angka2 =  20;
+   int mama = 20;
 
    public static void main (String[]args) {
     belajar1.cobaprint();
@@ -13,6 +13,7 @@ public class belajar1 {
     belajar1 belajardong = new belajar1();
     System.out.println(belajardong.oshi2);
     belajardong.oshicantik();
+    System.out.println(belajardong.mama);
     
     belajar1 oshis1 = new belajar1(1, "marsha");
     belajar1 oshis2 = new belajar1(2, "Greesel");
@@ -82,6 +83,7 @@ public void oshicantik(){
 public belajar1(){
     System.out.println("Hai Ini Constructor");
 }
+
 int rollnumber;
 String MineOshi;
 public belajar1(int rollnumber, String MineOshi){
