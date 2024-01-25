@@ -8,6 +8,9 @@ public static void main (String[]args){
     coba.addPoly(1, 2, 3);
     double d = coba.addPoly(10.1, 10.2);
     System.out.println(d);
+    double e = coba.addPoly(10.11, 2.44, 17.00);
+    System.out.println(e);
+
 
 
 }

@@ -15,5 +15,10 @@ public class cobaPoly {
         double c = a +b;
         return c;
     }
+
+    public double addPoly(double a, double b, double c){
+        double e = a+b+c;
+        return e;
+    }
     
 }
